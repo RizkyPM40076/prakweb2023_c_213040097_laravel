@@ -13,19 +13,16 @@
     <!-- Custom styles for this template -->
     <link href="/css/dashboard.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.css">
+    {{-- trix Editor --}}
+    <link rel="stylesheet" type="text/css" href="/css/trix.css">
+    <script type="text/javascript" src="/js/trix.js"></script>
 
+    <style>
+        trix-toolbar [data-trix-button-group="file-tools"] {
+            display:none;
+        }
+    </style>
 </head>
-
-{{-- Link CDN Trix Editor CSS --}}
-      <link rel="stylesheet" type="text/css" href="https://unpkg.com/trix@2.0.0/dist/trix.css">
-
-      {{-- Menghilankan file uploud untuk Trix Editor --}}
-      <style>
-          trix-toolbar [data-trix-button-group="file-tools"] {
-              display: none;
-          }
-      </style>
 
 <body>
 
